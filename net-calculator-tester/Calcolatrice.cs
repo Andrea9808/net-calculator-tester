@@ -24,7 +24,7 @@ namespace net_calculator_tester
                 return num1 / num2;
             else
             {
-                return 0; 
+                throw new Exception("Non puoi dividere per zero");
             }
         }
 
